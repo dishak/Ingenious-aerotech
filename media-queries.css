@@ -1,0 +1,117 @@
+@media screen and (max-width : 991px) 
+{
+    .container
+{
+    overflow: hidden;
+}
+.margin-padding-block
+{
+    margin-block: 10px;
+    padding: 30px var(--padding-inline-section) 0;
+}
+
+.navbar
+{
+    display: block;
+    padding: 20px;
+ 
+}
+.nav-links
+{
+    display: none;
+}
+.header-right img
+{
+    width: 100%;
+}
+.expertise-heading
+{
+    margin-block: 20px;
+}
+.spotlight-section
+{
+    margin-block: 15px;
+    padding: 20px var(--padding-inline-section) 0;
+}
+.spotlight-section .certificate
+{
+    margin-block: 5px;
+}
+.facilities-section .content
+{
+    justify-content: center;
+   
+
+}
+.facilities-section
+{
+    margin-block: 10px;
+    padding: 30px var(--padding-inline-section) 0;
+}
+.facilities-header
+{
+    margin-block: 5px;
+}
+.capability
+{
+    margin-block: 10px;
+}
+.about-us-section div p
+{
+    text-align: center;
+}
+.about-content 
+{   
+    align-items: center;
+    justify-content: center;
+}
+}
+
+@media screen and (max-width : 768px) 
+{
+    h1
+    {
+        font-size: 2rem;
+    }
+    h2 
+    {
+        font-size: 1.25rem;
+    }
+    h3
+    {
+        font-size: 1rem;
+    }
+    .header-section
+    {
+        flex-direction: column-reverse;
+        
+    }
+    .header-section .header-left
+    {
+        max-width: 100vw;
+    }
+    .content img,p
+    {
+        max-width: 90%;
+    }
+    
+   
+  
+}
+
+@media screen and (max-width : 478px) 
+{
+
+    h1
+    {
+        font-size: 2rem;
+    }
+    h2 
+    {
+        font-size: 1.25rem;
+    }
+    h3
+    {
+        font-size: 1rem;
+    }
+}
