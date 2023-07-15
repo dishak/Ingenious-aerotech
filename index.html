@@ -19,20 +19,24 @@
                 <img src="ingenious-logo.png" alt="company-logo">
             </a>
             <div class="nav-links">
-                <ul class="flex">
+                <!-- mobile-view bar icon -->
+                <input type="checkbox" name="sidebar" id="icon">
+                <label for="icon" class="bar">
+                <i class="fa-solid fa-bars fa-xl" style="color: #eb720f;"></i>
+                </label>
+                 <!-- mobile-view bar icon -->
+                <ul class="flex menu-ul">
+                    <li ><a  href="#home" class="hover-links ">Home</a></li>
                     <li><a href="#expertise-tag" class="hover-links">Our Expertise</a></li>
                     <li><a href="#inhouse-tag" class="hover-links">Inhouse Facilities</a></li>
                     <li><a href="#about-tag" class="hover-links">About Us</a></li>
                     <li><a href="#contact-tag" class="hover-links">Contact Us</a></li>
                 </ul>
-            </div>
-            <div class="navbar">
-                <i class="fa-solid fa-bars fa-xl" style="color: #eb720f;"></i>
-            </div>
+            </div>    
         </div>
     </nav>
     <header>
-        <div class="container flex header-section">
+        <div class="container flex header-section margin-padding-block" id="home">
             <div class="header-left text-align-center">
                 <h1>Welcome to Ingenious Aerotech</h1>
                 <p>Looking for one stop solutions in <br>
@@ -60,8 +64,9 @@
             </div>
         </div>
     </section>
+    <div class="blank" id="blank-exp"></div>
     <section class="expertise-section" id="expertise-tag">
-        <div class="container">
+        <div class="container expertise-main">
             <h2 class="expertise-heading text-align-center">Our&ensp; Expertise</h2>
             <div class="expertise flex ">
                 <div class="expertise-block text-align-center flex">
@@ -165,7 +170,7 @@
 
     <section class=" margin-padding-block" id="about-tag">
         <div class="container flex flex-dir-column about-us-section flex-gap">
-            <div>
+            <div class="about-us-section-heading">
                 <h2>Eager to know us?</h2>
             </div>
             <div class="commit">

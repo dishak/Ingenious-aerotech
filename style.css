@@ -2,6 +2,10 @@
 
 
 /* resets */
+html
+{
+    scroll-behavior: smooth;
+}
 *
 {
     margin: 0;
@@ -101,12 +105,25 @@ ul
 }
 
 /* nav bar */
-
+.bar,#icon
+{
+    display: none;
+}
+nav
+{
+    
+    border-bottom: 1px solid var(--secondary-text-color);
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.637);
+    background-color: white;
+    width: 100%;
+ 
+}
 .main-nav
 {
     justify-content: space-between;
     margin-top: 20px;
- 
+   
     
 }
 .company-logo img
@@ -123,10 +140,22 @@ ul
     justify-content: end;
 }
 
+/* .menu-ul li
+{
+    border: 1px solid var(--secondary-text-color);
+    border-radius: 10px;
+    box-shadow: 5px 5px .5px .5px rgba(0, 0, 255, .2);
+    padding: 3px;
+} */
+   
+
+
 .hover-links
 {
     color: var(--primary-text-color);
+    font-weight: 900;
     transition: 0.2s ease-out;
+
 }
 
 .hover-links:hover
@@ -189,9 +218,19 @@ flex-wrap: wrap;
 }
 
 /* our expertise */
+.expertise-section
+{
+    margin-block: 20px;
+    padding: 50px var(--padding-inline-section) 0;
+
+}
 .expertise-heading
 {
-    margin-block: 50px;
+    margin-block: 10px;
+}
+.expertise-main
+{
+    margin-block: 20px;
 }
 
 .expertise-icon
@@ -243,7 +282,6 @@ flex-wrap: wrap;
     margin-block: 20px;
     padding: 50px var(--padding-inline-section) 0;
 
-    
 }
 .facilities-header
 {
@@ -286,6 +324,14 @@ flex-wrap: wrap;
 
 
 /* About us */
+.about-us-section
+{
+    margin-block: 10px;
+}
+.about-us-section-heading
+{
+    margin-block: 20px;
+}
 .mission-vision
 {
     gap: 20px;
