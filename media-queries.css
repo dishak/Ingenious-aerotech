@@ -14,24 +14,23 @@
     position: relative;
     overflow: initial;
 }
-.bar
+/* .bar
 {
     display: block;
-  float: right;
-}
+   float: right;
+} */
 
 .nav-links #icon:checked~.menu-ul
 {
    left: 0%;
 }
-.nav-links input[type=checkbox]
+/* .nav-links input[type=checkbox]
 {
     display: none;
-}
-.nav-links ul
+} */
+.nav-links 
 {
     
-    flex-direction: column;
     position: absolute;
     left: -100%;
     top: 100%;
@@ -40,6 +39,15 @@
     padding-block: 20px;
     transition: all .5s ease-in-out;
    
+}
+.nav-links.active
+{
+    left: 0%;
+}
+
+.nav-links .menu-ul
+{
+    flex-direction: column;
 }
 
 .header-right img
@@ -52,12 +60,12 @@
 }
 .spotlight-section
 {
-    margin-block: 15px;
-    padding: 20px var(--padding-inline-section) 0;
+    /* margin-block: 15px; */
+    /* padding: 20px var(--padding-inline-section) 0; */
 }
 .spotlight-section .certificate
 {
-    margin-block: 5px;
+    /* margin-block: 5px; */
 }
 .facilities-section .content
 {
@@ -67,16 +75,17 @@
 }
 .facilities-section
 {
-    margin-block: 10px;
-    padding: 30px var(--padding-inline-section) 0;
+    /* margin-block: 10px; */
+    /* padding: 30px var(--padding-inline-section) 0; */
 }
 .facilities-header
 {
-    margin-block: 5px;
+    /* margin-block: 5px; */
+    margin-block: 20px;
 }
 .capability
 {
-    margin-block: 10px;
+    /* margin-block: 10px; */
 }
 .about-us-section div p
 {

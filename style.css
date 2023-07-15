@@ -268,7 +268,7 @@ flex-wrap: wrap;
 
 .spotlight-section .certificate
 {
-    margin-block: 30px;
+    margin-block: 50px;
     justify-content: center;
     gap: 50px;
     flex-wrap: wrap;
@@ -286,7 +286,7 @@ flex-wrap: wrap;
 .facilities-header
 {
 
-    margin-block: 10px;
+    margin-block: 20px;
 }
 .capability
 {
@@ -294,7 +294,7 @@ flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
-    margin-block: 20px;
+    margin-block: 10px;
 }
 
 .capability img

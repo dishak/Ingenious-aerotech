@@ -18,23 +18,53 @@
             <a href="#" class="company-logo">
                 <img src="ingenious-logo.png" alt="company-logo">
             </a>
-            <div class="nav-links">
-                <!-- mobile-view bar icon -->
-                <input type="checkbox" name="sidebar" id="icon">
+             <!-- mobile-view bar icon -->
+                <!-- <input type="checkbox" name="sidebar" id="icon">
                 <label for="icon" class="bar">
                 <i class="fa-solid fa-bars fa-xl" style="color: #eb720f;"></i>
-                </label>
+                </label> -->
                  <!-- mobile-view bar icon -->
+            <div class="nav-links" id="nav-links">
                 <ul class="flex menu-ul">
-                    <li ><a  href="#home" class="hover-links ">Home</a></li>
-                    <li><a href="#expertise-tag" class="hover-links">Our Expertise</a></li>
-                    <li><a href="#inhouse-tag" class="hover-links">Inhouse Facilities</a></li>
-                    <li><a href="#about-tag" class="hover-links">About Us</a></li>
-                    <li><a href="#contact-tag" class="hover-links">Contact Us</a></li>
+                    <li><a href="#home" id="hme" class="hover-links " >Home</a></li>
+                    <li><a href="#expertise-tag" id="exp" class="hover-links">Our Expertise</a></li>
+                    <li><a href="#inhouse-tag" id="inhouse" class="hover-links">Inhouse Facilities</a></li>
+                    <li><a href="#about-tag" id="about" class="hover-links">About Us</a></li>
+                    <li><a href="#contact-tag" id="contact" class="hover-links">Contact Us</a></li>
                 </ul>
-            </div>    
+            </div>
+            <a href="#" class="hover-links " id="nav-toggle">
+                <i class="fa-solid fa-bars fa-xl" style="color: #eb720f;"></i>
+            </a>
         </div>
     </nav>
+    <script>
+        const togglebutton = document.getElementById('nav-toggle');
+        const navLinks = document.getElementById('nav-links');
+        const homemenu = document.getElementById('hme');
+        const expmenu = document.getElementById('exp');
+        const inhousemenu = document.getElementById('inhouse');
+        const aboutmenu = document.getElementById('about');
+        const contactmenu = document.getElementById('contact');
+        togglebutton.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        })
+        homemenu.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        })
+        expmenu.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        })
+        inhousemenu.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        })
+        aboutmenu.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        })
+        contactmenu.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        })
+    </script>
     <header>
         <div class="container flex header-section margin-padding-block" id="home">
             <div class="header-left text-align-center">
@@ -52,7 +82,8 @@
     </header>
     <section>
         <div class="container testimonials-section">
-            <p class="small-text testimonial-header text-align-center">The world’s best companies rely on us for precision machining.</p>
+            <p class="small-text testimonial-header text-align-center">The world’s best companies rely on us for
+                precision machining.</p>
             <div class="companies-logo flex">
                 <a href="https://www.aceinotec.com/" target="_blank"><img class="logo" src="logo-1.jpeg"
                         alt="ace-inotec"></a>
@@ -179,11 +210,14 @@
             <div class="mission-vision flex flex-dir-column text-align-center border-with-shadow ">
                 <div>
                     <h3>OUR VISION</h3>
-                    <p>Focus on Safety,Quality,<br>Cost & Delivery. <br>To be a customer preffered organisation in global supply chain.</p>
+                    <p>Focus on Safety,Quality,<br>Cost & Delivery. <br>To be a customer preffered organisation in
+                        global supply chain.</p>
                 </div>
                 <div>
                     <h3>OUR MISSION</h3>
-                    <p>To be a differentiator in the industry to employees, customers, partners,     investors & to render service to society by creating greater values & opportunities through creative thinking & continuous improvement.</p>
+                    <p>To be a differentiator in the industry to employees, customers, partners, investors & to render
+                        service to society by creating greater values & opportunities through creative thinking &
+                        continuous improvement.</p>
                 </div>
             </div>
             <div>
@@ -193,26 +227,26 @@
                 <div class="flex flex-dir-column border-with-shadow ">
                     <img src="about-2.jpeg" alt="">
                     <h3>Name-xyz</h3>
-                    <span>CEO <br> (BD & Plant Head)</span> 
-                  
+                    <span>CEO <br> (BD & Plant Head)</span>
+
                 </div>
                 <div class="flex flex-dir-column border-with-shadow">
                     <img src="about-2.jpeg" alt="">
                     <h3>Name-xyz</h3>
-                    <span>COO <br>(Operations Head)</span> 
-                   
+                    <span>COO <br>(Operations Head)</span>
+
                 </div>
                 <div class="flex flex-dir-column border-with-shadow">
                     <img src="about-2.jpeg" alt="">
                     <h3>Name-xyz</h3>
-                    <span>GM  <br>Project Management</span>
-                   
+                    <span>GM <br>Project Management</span>
+
                 </div>
                 <div class="flex flex-dir-column border-with-shadow">
                     <img src="about-2.jpeg" alt="">
                     <h3>Name-xyz</h3>
-                    <span>GM  <br>Manufacturing Engineering</span>
-                    
+                    <span>GM <br>Manufacturing Engineering</span>
+
                 </div>
             </div>
         </div>
