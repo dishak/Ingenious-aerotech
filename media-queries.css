@@ -14,7 +14,10 @@
     position: relative;
     overflow: initial;
 }
-
+#nav-toggle
+{
+    display: block;
+}
 .nav-links #icon:checked~.menu-ul
 {
    left: 0%;
