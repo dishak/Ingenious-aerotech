@@ -14,20 +14,12 @@
     position: relative;
     overflow: initial;
 }
-/* .bar
-{
-    display: block;
-   float: right;
-} */
 
 .nav-links #icon:checked~.menu-ul
 {
    left: 0%;
 }
-/* .nav-links input[type=checkbox]
-{
-    display: none;
-} */
+
 .nav-links 
 {
     

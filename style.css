@@ -105,6 +105,10 @@ ul
 }
 
 /* nav bar */
+#nav-toggle
+{
+    display: none;
+}
 .bar,#icon
 {
     display: none;
@@ -139,17 +143,6 @@ nav
     gap: 40px;
     justify-content: end;
 }
-
-/* .menu-ul li
-{
-    border: 1px solid var(--secondary-text-color);
-    border-radius: 10px;
-    box-shadow: 5px 5px .5px .5px rgba(0, 0, 255, .2);
-    padding: 3px;
-} */
-   
-
-
 .hover-links
 {
     color: var(--primary-text-color);
@@ -173,6 +166,7 @@ header
 {
     padding: 50px var(--padding-inline-section) 0;
 }
+
 .header-section
 {
     justify-content: center;
