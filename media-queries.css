@@ -58,9 +58,10 @@
     /* margin-block: 15px; */
     /* padding: 20px var(--padding-inline-section) 0; */
 }
-.spotlight-section .certificate
+.spotlight-section .certificate img
 {
     /* margin-block: 5px; */
+    max-width: 100%;
 }
 .facilities-section .content
 {
